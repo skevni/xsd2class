@@ -47,16 +47,16 @@
                 <configuration>
                     <sources>
                         <source>
-                            ${project.basedir}/src/main/resources/gar_schemas/AS_ADDR_OBJ_2_251_01_04_01_01.xsd
+                            ${project.basedir}/src/main/resources/gar_schemas
                         </source>
-                        <source>${project.basedir}/src/main/resources/gar_schemas/AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd</source>
-                        <source>${project.basedir}/src/main/resources/gar_schemas/AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd</source>
+<!--                        <source>${project.basedir}/src/main/resources/gar_schemas/AS_ADDR_OBJ_TYPES_2_251_03_04_01_01.xsd</source>-->
+<!--                        <source>${project.basedir}/src/main/resources/gar_schemas/AS_ADDR_OBJ_DIVISION_2_251_19_04_01_01.xsd</source>-->
                     </sources>
 <!--                    <sources>-->
 <!--                        <schemaDirectory>${project.basedir}/src/main/resources/gar_schemas</schemaDirectory>-->
 <!--                    </sources>-->
-                    <packageName>gar</packageName>
-                    <outputDirectory>${project.basedir}/src/main/java/ru.sklyarov</outputDirectory>
+                    <packageName>ru.sklyarov.gar</packageName>
+                    <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
                 </configuration>
             </plugin>
         </plugins>
